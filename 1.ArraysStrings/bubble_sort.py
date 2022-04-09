@@ -4,7 +4,7 @@ def do_bubble_sort(array_to_sort):
     counter = 0
     for i in range(len(array_to_sort)-1):
         swapped = False
-        for j in range(len(array_to_sort)-1):
+        for j in range(len(array_to_sort)-1-i):
             counter += 1
             if array_to_sort[j] > array_to_sort[j +1]:
                 swapped = True
@@ -14,7 +14,7 @@ def do_bubble_sort(array_to_sort):
         if not swapped:
             print('Total iterations are {}'.format(counter))
             return array_to_sort
-    print('Total iterations are {}'.format(counter))
+    print('Total iterations is {}'.format(counter))
     return array_to_sort
 
 # Unsorted array

@@ -1,6 +1,4 @@
 # Adjacency list representation of the graph using dictionary(as most suggesting)
-# https://medium.com/youstart-labs/implement-graphs-in-python-like-a-pro-63bc220b45a0
-
 
 class Graph:
 

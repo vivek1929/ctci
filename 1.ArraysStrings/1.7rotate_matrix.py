@@ -1,8 +1,8 @@
 # Given an image represent by NxN matrix. Write a method to rotate the image 
 # by 90 degrees. 
 
-from collections import deque
-
+# Swap in place by considering one layer at a time
+# and move from outer layer to each inner layer
 def rotate_clockwise(matrix):
     n = len(matrix)
     for layer in range(int(n/2)):

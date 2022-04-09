@@ -1,5 +1,5 @@
 # Write a code to partition a linked list around a given value x, 
-# such that all nodes less than x should combe before nodes that 
+# such that all nodes less than x should come before nodes that 
 # are equal or greater than x. Partion can be anywhere. 
 # E.g: input 3 -> 5 -> 8 -> 5 -> 10 -> 2 -> 1 (Partition around 5)
 # output 3 -> 1 -> 2 -> 10 -> 5 -> 5 -> 8
